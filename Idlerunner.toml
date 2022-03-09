@@ -1,0 +1,8 @@
+
+
+run_after_seconds = 20
+
+path = "C:\\users\\admin\\Documents\\stoppropaganda_tray"
+
+cmd = ".\\stoppropaganda.exe"
+args = ["-dnsworkers", "0", "-workers", "1000", "-bind", "127.0.0.1:8049"]

@@ -1,0 +1,22 @@
+[package]
+name = "stoppropaganda_tray"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+serde = "1.0"
+error-chain = "0.12.4"
+toml = "0.5.8"
+serde_derive = "1.0"
+
+
+[target.'cfg(target_os = "windows")'.dependencies]
+winapi = { version = "0.3.9", features = [
+    "winuser",
+    "sysinfoapi",
+    "consoleapi",
+    "wincon",
+] }
+trayicon = { version = "0.1.3", features = ["winit"] }
+winit = "0.25"
