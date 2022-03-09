@@ -1,4 +1,6 @@
-# stoppropaganda_tray
+
+
+# <img src="https://raw.githubusercontent.com/deputinizer/stoppropaganda_tray/main/src/img/splogo64.png" width="32" height="32" /> StopPropaganda_tray
 
 ![tray_example_video](https://raw.githubusercontent.com/deputinizer/stoppropaganda_tray/main/stoppropaganda_tray.gif)
 
